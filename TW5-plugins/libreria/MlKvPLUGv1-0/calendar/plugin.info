@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/MlKvPLUGv1-0/Calendar",
+    "description": "summary of the plugin's purpose",
+    "author": "/MlKvPLUGv1-0",
+    "version": "0.0.1",
+    "core-version": ">=5.0.8",
+    "source": "https://github.com/miswikis/mlkvplugv1-0/tree/master/MlKvPLUGv1-0/calendar",
+    "plugin-type": "plugin"
+}
