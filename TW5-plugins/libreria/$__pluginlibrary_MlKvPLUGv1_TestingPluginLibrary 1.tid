@@ -1,0 +1,13 @@
+caption: MlKvPLUGv1 - Testing Library
+created: 20150427044810703
+modified: 20160405062729497
+tags: $:/tags/PluginLibrary
+title: $:/pluginlibrary/MlKvPLUGv1/TestingPluginLibrary
+type: text/vnd.tiddlywiki
+url: http://ooktech.com/jed/pluginlibrary/testing/index.html
+
+The plugin library for the plugins made by MlKvPLUGv1. This library contains all of my plugins, even the ones that are not ready for general use, so be very careful importing them.
+
+That and the plugin library idea is new so be doubly careful, both the library idea and my plugins are being tested.
+
+For more information about the plugins see [[http://MlKvPLUGv1.tiddlyspot.com/#My%20Plugins]].

@@ -1,0 +1,14 @@
+created: 20160405073241126
+modified: 20160405073241126
+title: $:/.tb/template/tasklist-tags/closed
+type: text/vnd.tiddlywiki
+
+<tr>
+<td>
+<$checkbox tag="Done">
+~~<$link to={{!!title}}><$view field="title"/></$link>~~
+</$checkbox>
+</td>
+<td>
+<$list filter="[all[current]tags[]sort[title]]-[[Task]]-[[Done]]" template="$:/core/ui/TagTemplate" storyview="pop"/></td>
+</tr>

@@ -1,0 +1,10 @@
+created: 20160405072857307
+modified: 20160405072857307
+title: $:/.tb/templates/tab/xlist/publication
+type: text/vnd.tiddlywiki
+
+All [[published|Publications]] <$link to=<<currentTab>>><<currentTab>></$link> by [[Topics]]...
+
+<$tiddler tiddler=<<currentTab>>>
+<<xlist-published Topics>>
+</$tiddler>

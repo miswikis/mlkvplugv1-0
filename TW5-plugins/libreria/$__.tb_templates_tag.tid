@@ -1,0 +1,6 @@
+created: 20160405073241354
+modified: 20160405073241354
+title: $:/.tb/templates/tag
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/core/ui/TagTemplate">

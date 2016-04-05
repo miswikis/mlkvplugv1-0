@@ -1,0 +1,16 @@
+created: 20160405073241360
+modified: 20160405073241360
+title: $:/.tb/templates/tabbed-toc-example
+type: text/vnd.tiddlywiki
+
+<h2><$link><$view field=title/></$link></h2>
+<$list filter="[all[current]has[summary]]">
+
+{{!!summary}}
+</$list>
+<$list filter="[all[current]has[url]]">
+
+{{!!url}}
+</$list>
+
+{{!!text}}

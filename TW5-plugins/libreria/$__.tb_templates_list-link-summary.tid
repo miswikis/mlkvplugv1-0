@@ -1,0 +1,8 @@
+created: 20160405073241084
+modified: 20160405073241084
+title: $:/.tb/templates/list-link-summary
+type: text/vnd.tiddlywiki
+
+<dt><$link><$view field=title/></$link></dt>
+<dd>{{!!url}}</dd>
+<dd>{{!!summary}}</dd>

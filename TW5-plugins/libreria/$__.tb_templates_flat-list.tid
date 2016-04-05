@@ -1,0 +1,11 @@
+created: 20160405072857330
+modified: 20160405072857330
+title: $:/.tb/templates/flat-list
+type: text/vnd.tiddlywiki
+
+<$tiddler tiddler=<<item>>>
+<$link><$view field=title/></$link>
+</$tiddler>
+<span style="float:right">
+<$list filter="[<item>tags[]] +[tag<currentTiddler>]" template="$:/core/ui/TagTemplate"/>
+</span><br>

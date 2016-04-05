@@ -1,0 +1,8 @@
+created: 20160405073241077
+modified: 20160405073241077
+title: $:/.tb/templates/list-search-markup
+type: text/vnd.tiddlywiki
+
+<dl class="tb5-markup">
+<$transclude field=text/>
+</dl>

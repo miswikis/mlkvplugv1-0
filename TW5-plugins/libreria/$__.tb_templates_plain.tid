@@ -1,0 +1,6 @@
+created: 20160405073241062
+modified: 20160405073241062
+title: $:/.tb/templates/plain
+type: text/vnd.tiddlywiki
+
+<$view field=title/>

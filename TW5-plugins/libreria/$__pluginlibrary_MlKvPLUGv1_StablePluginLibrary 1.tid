@@ -1,0 +1,15 @@
+caption: MlKvPLUGv1 - Stable Library
+created: 20150427203008459
+modified: 20160405062729514
+tags: $:/tags/PluginLibrary
+title: $:/pluginlibrary/MlKvPLUGv1/StablePluginLibrary
+type: text/vnd.tiddlywiki
+url: http://ooktech.com/jed/pluginlibrary/stable/index.html
+
+The plugin library for the plugins made by MlKvPLUGv1. This library only contains the plugins I have made that should be ready for general use. I still update them from time to time. I use most of these so future upgrades shouldn't break how they currently work. Or at the very least I will include a tool for updating anything you use with them.
+
+Import this tiddler [[$:/pluginlibrary/MlKvPLUGv1/StablePluginLibrary]] to access this library through the add plugins interface on your wiki.
+
+Plugins can contain arbitrary javascript and may do bad things to your wiki or computer, only get them from sources you trust.
+
+For more information about the plugins see [[http://MlKvPLUGv1.tiddlyspot.com/#My%20Plugins]].

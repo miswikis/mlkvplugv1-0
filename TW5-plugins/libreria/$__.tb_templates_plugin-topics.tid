@@ -1,0 +1,13 @@
+created: 20160405072857315
+modified: 20160405072857315
+title: $:/.tb/templates/plugin-topics
+type: text/vnd.tiddlywiki
+
+\define prefix() $(plugin)$-
+
+<$link><$view field="title"/></$link>
+<hr>
+<$vars plugin=<<currentTiddler>>>
+<$list filter="[prefix<prefix>]">
+<$link><$list filter="[all[current]removeprefix<prefix>]"><$view field="title"/></$list></$link></$list>
+</$vars>

@@ -1,0 +1,15 @@
+created: 20160405073241115
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20160405073241115
+tags: $:/tags/ViewTemplate
+title: $:/.tb/template/view-template
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[$:/tags/ShowSource]]
+[all[current]prefix[$:/.tb/]]
+[all[current]prefix[$:/.tb/template/]]
+[all[current]prefix[$:/styles/]]
+-[has[type]]
++[limit[1]]">
+<pre><$view tiddler=<<currentTiddler>> format="text"/></pre>
+</$list>
